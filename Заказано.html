@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <!DOCTYPE html>
+    <html>
+<body>
+
+<h2> Кол-во Заказов</h2>
+
+
+<p>Добавьте заказ</p>
+
+<form action="/action_page.php">
+    <label for="cars">Выберите тип</label>
+    <select id="cars" name="cars">
+        <option value="">Фантастика</option>
+        <option value="">Исторические</option>
+        <option value="">Научная</option>
+        <option value="">Детектив</option>
+        <option value="">Другое</option>
+    </select>
+    <input style="height:40px; color: white; background-color:darkblue; width: 150px" class="za" id="elem" type="button" value="Добавить">
+    <script>
+        elem.onclick = function() {
+            alert('Добавили новое заказ');
+        };
+    </script>
+</form>
+
+</body>
+</head>
+</html>
