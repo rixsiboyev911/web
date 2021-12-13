@@ -1,0 +1,70 @@
+body{
+    background-color: #4d90fe;
+
+}
+
+.container{
+    text-align: center;
+
+}
+
+h2:hover{
+    background: rgba(177,255,34,0.98);
+    color: #2b5672;
+    width: 270px;
+    height: 42px;
+}
+h3:hover{
+    background:rgba(255,95,5,0.98);
+    color: rgba(13,32,51,0.98);
+    width: 240px;
+    height: 40px;
+}
+h4:hover{
+    background: gold;
+    color:rgba(5,12,12,0.98);
+    width: 220px;
+    height: 30px;
+}
+button{
+    height: 70px;
+    width:150px;
+    color: white;
+    background-color: #df3131;
+   margin: 35px;
+    box-shadow: 10px 5px 2px black;
+   border-radius: 25%;
+
+
+}
+button:hover {
+    background: snow;
+    color: red;
+    width: 130px;
+    height: 70px;
+ 
+}
+.za{
+    width: 100px;
+    height: 45px;
+}
+input.za:hover{
+    color: aqua;
+    width: 140px;
+    height: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    color: #2b5672;
+    color: rgba(43,177,19,0.98);
+}
+
+
+.tb{
+    color: gold;
+}
+
